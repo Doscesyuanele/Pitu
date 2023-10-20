@@ -75,20 +75,20 @@ html{
 }
 
 .fondo-galeria{
-    background-color: rgba(50, 144, 147, 0.6);
+    background-color: rgba(34, 126, 123, 0.6);
     border-radius:20px;
-    width:500px;
+    width:900px;
     display:flex;
     justify-content:center;
     flex-direction:column;
     margin:auto;
-    margin-top:800px;
+    margin-top:400px;
 }
 
 .encabezado-galeria{
     text-align:center;
     font-family:"Indie Flower";
-    font-size:20px;
+    font-size:32px;
     font-weight:500;
     color:rgb(255,255,255);
     margin-top:40px;
@@ -97,12 +97,12 @@ html{
 figcaption{
     text-align:center;
     font-family:"Indie Flower";
-    font-size:20px;
+    font-size:30px;
     font-weight:500;
     color:rgb(255,255,255);
     width:80%;
 }
-.galeria{
+.galeria {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -114,18 +114,89 @@ figcaption{
     padding: 20px 10px;
 }
 
-.galeria img{
+.galeria img,
+.galeria video{
     width: 100%;
-    max-width: 350px;
-    max-height: 600px;
+    max-width: 650px;
+    max-height: 850px;
     object-fit: cover;
     border-radius: 10px;
 }
 
-.galeria video{
+.fondo-galeria-2{
+    background-color: rgba(104, 100, 78, 0.6);
+    border-radius:40px;
+    width:1200px;
+    margin:400px auto ;
+}
+
+.encabezado-galeria-2{
+    text-align:center;
+    font-family:"Indie Flower";
+    font-style: italic;
+    font-size:30px;
+    margin:40px 30px;
+    color:rgb(255,255,255);
+}
+
+.megusta {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.megusta img,
+.megusta video{
+    display: flex;
+    flex-direction: row;
     width: 100%;
     max-width: 350px;
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
+    margin:20px;
+}
+
+.megusta figcaption{
+    justify-content:left;
+    text-align: left;
+    margin-left: 0;
+    width:600px;
+}
+
+
+.fondo-galeria-3{
+    background-color: rgba(83, 143, 151, 0.6);
+    border-radius: 80%;
+    width:1600px;
+    height: 850px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+}
+
+.guapo {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.guapo img{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:center;
+    max-width: 850px;
+    max-height: 550px;
+    object-fit: cover;
+    border-radius: 60%;
+    margin:20px;
+    padding-top:150px;
 }
