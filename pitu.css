@@ -124,7 +124,7 @@ figcaption{
 }
 
 .fondo-galeria-2{
-    background-color: rgba(104, 100, 78, 0.6);
+    background-color: rgba(43, 120, 137, 0.4);
     border-radius:40px;
     width:1200px;
     margin:400px auto ;
@@ -135,8 +135,9 @@ figcaption{
     font-family:"Indie Flower";
     font-style: italic;
     font-size:30px;
-    margin:40px 30px;
+    margin:40px 200px;
     color:rgb(255,255,255);
+    padding-top:30px;
 }
 
 .megusta {
@@ -171,10 +172,10 @@ figcaption{
 
 
 .fondo-galeria-3{
-    background-color: rgba(83, 143, 151, 0.6);
+    background-color: rgba(44, 115, 114, 0.4);
     border-radius: 80%;
-    width:1600px;
-    height: 850px;
+    width:1500px;
+    height: 800px;
     margin:auto;
     display:flex;
     justify-content:center;
@@ -198,5 +199,5 @@ figcaption{
     object-fit: cover;
     border-radius: 60%;
     margin:20px;
-    padding-top:150px;
+    padding-top:120px;
 }
