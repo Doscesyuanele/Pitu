@@ -1,0 +1,131 @@
+html{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Quicksand', sans-serif;
+    background-image: linear-gradient(rgba(50, 144, 147, 0.6), rgba(35, 106, 67, 0.6)), url("fotos/FONDO.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.titulo-circulo{
+    margin: 30px auto;
+    background-color: rgba(255,255,255,0.3);
+    border-radius:1000px;
+    width:850px;
+    height:850px;
+    display:flex;
+}
+
+.titulo-texto{
+    font-family:"Indie Flower";
+    color: rgb(255,255,255);
+    font-size:200px;
+    line-height:100%;
+    display:flex;
+    text-align:center;
+    justify-content:center;
+    margin:auto;
+}
+
+.texto{
+    font-family:"Quicksand";
+    font-size:20px;
+    color:rgb(255,255,255);
+    justify-content:center;
+    display:block;
+    flex-wrap:wrap;
+    text-align:center;
+    margin:600px auto 40px auto;
+}
+
+.texto-2{
+    font-family:"Indie Flower";
+    font-size:20px;
+    color:rgb(255,255,255);
+    justify-content:center;
+    display:block;
+    flex-wrap:wrap;
+    text-align:center;
+    margin:auto;
+}
+
+.texto-3{
+    font-family:"Indie Flower";
+    font-size:20px;
+    color:rgb(255,255,255);
+    justify-content:center;
+    display:block;
+    flex-wrap:wrap;
+    text-align:center;
+    margin:600px auto 40px auto;
+}
+
+.icon{
+    color:rgb(255,255,255);
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    width:auto;
+    height:200px;
+}
+.audio{
+    margin: 50px auto;
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+
+.fondo-galeria{
+    background-color: rgba(50, 144, 147, 0.6);
+    border-radius:20px;
+    width:500px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    margin:auto;
+    margin-top:800px;
+}
+
+.encabezado-galeria{
+    text-align:center;
+    font-family:"Indie Flower";
+    font-size:20px;
+    font-weight:500;
+    color:rgb(255,255,255);
+    margin-top:40px;
+}
+
+figcaption{
+    text-align:center;
+    font-family:"Indie Flower";
+    font-size:20px;
+    font-weight:500;
+    color:rgb(255,255,255);
+    width:80%;
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+
+.galeria img{
+    width: 100%;
+    max-width: 350px;
+    max-height: 600px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.galeria video{
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
