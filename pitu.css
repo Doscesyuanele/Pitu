@@ -8,7 +8,8 @@ html{
 
 .titulo-circulo{
     margin: 30px auto;
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255,255,255,0.15);
+    box-shadow: 0 0 20px 6px rgb(32, 66, 47);
     border-radius:1000px;
     width:850px;
     height:850px;
@@ -63,7 +64,7 @@ html{
     color:rgb(255,255,255);
     display:flex;
     justify-content:center;
-    margin:auto;
+    margin:80px auto;
     width:auto;
     height:200px;
 }
@@ -75,14 +76,24 @@ html{
 }
 
 .fondo-galeria{
+    border-style:dotted;
+    border-color:white;
     background-color: rgba(34, 126, 123, 0.6);
-    border-radius:20px;
-    width:900px;
+    border-radius:100px;
+    width:1000px;
     display:flex;
     justify-content:center;
     flex-direction:column;
     margin:auto;
     margin-top:400px;
+}
+
+.recuadro-prueba-2{
+    border-color:white;
+    border-style:dashed;
+    width:800px;
+    margin:80px auto;
+    border-radius:100px;
 }
 
 .encabezado-galeria{
@@ -118,13 +129,15 @@ figcaption{
 .galeria video{
     width: 100%;
     max-width: 650px;
-    max-height: 850px;
+    max-height: 750px;
     object-fit: cover;
     border-radius: 10px;
 }
 
 .fondo-galeria-2{
     background-color: rgba(43, 120, 137, 0.4);
+    border-style:dotted;
+    border-color:white;
     border-radius:40px;
     width:1200px;
     margin:400px auto ;
@@ -161,6 +174,7 @@ figcaption{
     object-fit: cover;
     border-radius: 10px;
     margin:20px;
+    box-shadow: 0 0 20px 6px rgb(0, 0, 0);
 }
 
 .megusta figcaption{
@@ -173,6 +187,7 @@ figcaption{
 
 .fondo-galeria-3{
     background-color: rgba(44, 115, 114, 0.4);
+    box-shadow: 0 0 20px 6px rgb(29, 73, 72);
     border-radius: 80%;
     width:1500px;
     height: 800px;
